@@ -4,7 +4,7 @@ const library = [
         title: "Dasar-Dasar Pemrograman Web", 
         author: "Ahmad Riyadi", 
         isbn: "978-602-03-3286-9", 
-        link: "assets/buku1.pdf" // https://export-download.canva.com/a9Mv0/DAG5xYa9Mv0/45/0-4579520659858237357.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20251125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251125T075245Z&X-Amz-Expires=88662&X-Amz-Signature=e55cea23c06ee271e37fd40e15b6858f90a9c18ad5574018c1351b10ded9f5fb&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Local%2520Area%2520Network%2528LAN%2529.pdf&response-expires=Wed%2C%2026%20Nov%202025%2008%3A30%3A27%20GMT
+        link: "assets/buku1.pdf" // 
     },
     { 
         title: "Pengantar Algoritma dan Struktur Data", 
@@ -17,9 +17,14 @@ const library = [
         author: "Citra Dewi", 
         isbn: "978-623-7729-01-5", 
         link: "assets/buku3.pdf" 
-    }
-    // Tambahkan lebih banyak data buku di sini!
-];
+    }  
+        title: "Mato si Pohon Matoa", 
+        author: "Watiek Ideo", 
+        isbn: "978-602-437-845-5", 
+        link: "assets/Mato-si-Pohon-Matoa.pdf" 
+    //  
+        
+
 
 const bookListContainer = document.getElementById('bookList');
 
